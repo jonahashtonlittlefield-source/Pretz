@@ -1,0 +1,83 @@
+assets:
+- method: binarc
+  name: 00battle.bin
+  source:
+  - method: listpatch
+    name: fmlv
+    source:
+    - name: FmlvList.yml
+      type: fmlv
+    type: List
+  - method: listpatch
+    name: lvup
+    source:
+    - name: LvupList.yml
+      type: lvup
+    type: List
+  - method: listpatch
+    name: bons
+    source:
+    - name: BonsList.yml
+      type: bons
+    type: List
+- method: binarc
+  name: 03system.bin
+  source:
+  - method: listpatch
+    name: trsr
+    source:
+    - name: TrsrList.yml
+      type: trsr
+    type: List
+  - method: listpatch
+    name: item
+    source:
+    - name: ItemList.yml
+      type: item
+    type: List
+- method: binarc
+  multi:
+  - name: msg/fr/po.bar
+  - name: msg/gr/po.bar
+  - name: msg/it/po.bar
+  - name: msg/sp/po.bar
+  name: msg/us/po.bar
+  source:
+  - method: kh2msg
+    name: po
+    source:
+    - language: en
+      name: po.yml
+    type: list
+- method: binarc
+  multi:
+  - name: msg/fr/sys.bar
+  - name: msg/gr/sys.bar
+  - name: msg/it/sys.bar
+  - name: msg/sp/sys.bar
+  name: msg/us/sys.bar
+  source:
+  - method: kh2msg
+    name: sys
+    source:
+    - language: en
+      name: sys.yml
+    type: list
+- method: binarc
+  multi:
+  - name: msg/fr/he.bar
+  - name: msg/gr/he.bar
+  - name: msg/it/he.bar
+  - name: msg/sp/he.bar
+  name: msg/us/he.bar
+  source:
+  - method: kh2msg
+    name: he
+    source:
+    - language: en
+      name: he.yml
+    type: list
+description: "Seed W30999970629785147412 was generated for That_1_Pretzel - Player\
+  \ 2 at 23Nov2026-175434 UTC. Have fun! \nCredit to delilahisdidi for the icons!"
+originalAuthor: JaredWeakStrike
+title: Archipelago Seed - That_1_Pretzel
